@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif; 
+}
+
+/* navbar start */
+
+.navbar{
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    border-radius: 10px;
+}
+.logo > img{
+    margin-top: 10px;
+  height: 15vh;
+}
+
+.navbar > div > a {
+    text-decoration: none;
+    color: green;
+    padding: 15px;
+    transition: ease-in-out;
+    transition-duration: 0.7s;
+    
+}
+.navbar > div > a:hover{ 
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar > div > input{
+    width: 70%;
+    height: 4vh;
+    border-radius: 10px;
+    border: 2px solid green;
+    text-align: center;
+    margin-right: 15px;
+    font-size: large;
+    
+}
+.navbar > div > button{
+    background-color: green;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.navbar > div > button:hover{
+    background-color: whitesmoke;
+    color: green;
+
+}
+ /* navbar complete  */
+
+
+ /* body background image start  1*/
+.body-background-img{
+    margin: auto;
+    padding: 10%;
+
+}
+
+.heading{
+    position: absolute;
+    top: 20%;
+    height: 450px;
+    width: 40%;
+    text-align: center;
+
+    
+}
+
+@media screen and (max-width:1000px){
+    .heading{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    
+    }
+}
+
+.sub-heading1{
+    font-family:Arial Rounded MT Bold;
+}
+.heading > p{
+color: green;
+}
+.sub-heading2{
+    font-family: Agency FB;
+    font-size:50px;
+}
+
+.button{
+    padding: 12px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    font-weight: 500;
+    border: none;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: white;
+    color: green;
+}
+
+/* body background image start  2*/
+
+.heading2{
+    position: absolute;
+    top: 20%;
+    height: 450px;
+    width: 40%;
+    text-align: center;
+    left: 50%;
+    
+}
+
+@media screen and (max-width:1000px){
+    .heading2{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    
+    }
+}
+
+@media screen and (max-width:1000px){
+    .heading{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    
+    }
+}
+
+.sub-heading3{
+    font-family:Arial Rounded MT Bold;
+    color: white;
+}
+.heading2 > p{
+color: white;
+}
+.sub-heading4{
+    font-family: Agency FB;
+    font-size:50px;
+    color: white;
+}
+
+
+.button{
+    padding: 12px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    font-weight: 500;
+    border: none;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: white;
+    color: green;
+    font-weight: bolder;
+}
+
+
+/* body background image start  3*/
+
+.headind3 > h1 {
+    position: absolute;
+    top: 60%;
+    right: 26%;
+    font-family:Arial Rounded MT Bold;
+    color: green;
+    font-weight: bold;
+
+}
+.button-{
+    position: absolute;
+    top: 70%;
+    right: 33%;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 9px;
+    font-weight: 200;
+    border: none;
+    width: 10%;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+.button-:hover{
+    color: green;
+    background-color: rgb(226, 224, 224);
+    font-weight: bolder;
+}
+
+.headind3 > P{
+    position: absolute;
+    top: 67%;
+    right: 30%;
+    color: green;
+}
+
+.heading-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.anchor > a{
+    text-decoration: none;
+    border: none;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border-radius: 23px;
+    font-weight: 300;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+
+
+}
+.anchor > a:hover{
+    background-color: whitesmoke;
+    color: orangered;
+}
+.click{
+    padding-left:20% ;
+    text-decoration: none;
+    color: green;
+    font-size: large;
+}
+.hr{
+    color: rgb(6, 97, 6);
+    margin: 20px;
+}
+
+.middle-body-cards{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+
+
+
+.middle-body-cards > div > button{
+   
+    height: 44px;
+    width: 33%;
+    color: white;
+    background-color:rgb(0, 153, 0) ;
+    border: none;
+    border-radius: 10px;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+
+
+.middle-body-cards > div > button:hover{
+    color: green;
+    background-color: whitesmoke;
+}
+
+.middle-body-cards > div {
+    border: 1px solid honeydew;
+    width: 25%;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 30px 20px 30px 10px rgba(0, 0, 255, .2);
+    height: 400px;
+    transition: 1.2s;
+    
+}
+
+
+.middle-body-cards > div:hover{
+    transform: scale(1.1);
+
+}
+
+.middle-body-cards > div > img{
+    margin-top: -15%;
+    margin-left: 20%;
+    height: 17vh;
+    width: 50%;
+    
+}
+
+.middle-body-cards > div > p{
+    font-weight: 500;
+}
+
+/* beauty carosel body cards */
+#body-background-img-2{
+    margin: auto;
+    padding: 10%;
+    height: 400px;
+}
+
+/*  middle-body-tags  */
+
+.tags{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.tags > div > P {
+    font-weight: 500;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: ease-in;
+    transition-duration: 0.4s;
+}
+
+
+.tags > div > P:hover{
+    background-color: green;
+    color: white;
+}
+
+/* cards snacks img */
+
+.snacks{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.snacks > div {
+    height: 300px;
+    width:50%;
+    text-align: center;
+    transition: 1.2s;
+    
+}
+
+.snacks > div:hover{
+    transform: scale(1.1);
+}
+
+.snacks > div > img {
+    height: 25vh;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px 1px rgba(0, 0, 255, .2);
+}
+
+.snacks > div > h2{
+    position: relative;
+    top: 35%;
+    right:11%;
+
+}
+
+.snacks > div > p{
+    position: relative;
+    top: 35%;
+    right:25%;
+    color: red;
+
+}
+
+/* last cards  */
+
+.last-cards{
+    display: flex;
+    justify-content: center;
+
+}
+
+.last-cards > div {
+
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 255, .2);
+    height: 250px;
+    width: 20%;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 30px;
+    transition: 1.2s;
+    
+}
+
+.last-cards > div:hover{
+    transform: scale(1.1);
+
+}
+
+.last-cards > div > img{
+    height: 10vh;
+    width: 25%;
+}
+
+/* footer */
+
+.footer {
+    background: white;
+    color: black;
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    height:30vh;
+}
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+.footer-column h3 {
+    color: green;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer-column ul li a:hover {
+    color: green;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background: green;
+    color: white;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
